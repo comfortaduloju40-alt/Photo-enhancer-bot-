@@ -1,0 +1,18 @@
+{
+  "name": "telegram-photo-enhancer-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that enhances photos (sharpen, brightness/contrast, denoise) using sharp",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.7",
+    "sharp": "^0.33.5"
+  }
+}
